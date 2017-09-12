@@ -1,3 +1,6 @@
+
+include(joinpath(dirname(@__FILE__), "cards.jl"))
+
 function main(cards)
     print("Ready?! Press [ENTER] to continue at each step. If you'd like to stop, input any character(s) before pressing [ENTER].")
     readline()
