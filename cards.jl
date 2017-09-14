@@ -68,16 +68,16 @@ const CARDS = Vector{Vector{String}}[
     [
         [
             "What are non-critical technical problems?",
-            "Equipment damage/not working properly",
-        ]
+            "Equipment damage/not working properly"
+        ],
         [
             "What do you do with damaged equipment?",
-            "Turn it off, leave a note on the equipment and in the Book.",
-        ]
+            "Turn it off, leave a note on the equipment and in the Book."
+        ],
         [
             "What if you need the equipment to stay on the air?",
-            "You must sign off. Do not attempt repairs.",
-        ]
+            "You must sign off. Do not attempt repairs."
+        ],
         [
             "8 examples of forbidden repairs?",
             """
@@ -89,12 +89,12 @@ const CARDS = Vector{Vector{String}}[
             - adjusting tone arm heights/weights
             - removing/tampering with tonearms/headshells/cartidges/styli
             - permanently marking/defacing equipment
-            """,
-        ]
+            """
+        ],
         [
             "What do you do if you're forced to sign off due to equipment failure?",
-            "Contact ETS/TS so that WMBR can get back on air ASAP",
-        ]
+            "Contact ETS/TS so that WMBR can get back on air ASAP"
+        ],
         [
             "What do you do if equipment is not operating at peak performance?",
             "Leave a note in the book/sticky note on the equipment"
