@@ -100,4 +100,40 @@ const CARDS = Vector{Vector{String}}[
             "Leave a note in the book/sticky note on the equipment"
         ]
     ],
+    [
+        [
+            "3 kinds of \"bad\" content that the FCC cares about?",
+            "Indecency, profanity, obscenity"
+        ],
+        [
+            "Define indecency",
+            """
+            language or material that is patently offensive by contemporary community
+            standards, or sexual/execretory organs or activities
+            """
+        ],
+        [
+            "Define profanity",
+            """
+            Vulgar words/language considered offensive to the general public (particularly
+            "fuck" or "shit"). Also slang words for sexual/excretory acts/organs.
+            Profanity is considered indecency.
+            """
+        ],
+        [
+            "Define obscenity",
+            """
+            Material so offensive that it has no redeeming value. It's not protected by the
+            First Amendment!
+            """
+        ],
+        [
+            "What \"bad\" material is allowed on the air *sometimes*?"
+            "Indecency/Profanity"
+        ],
+        [
+            "Between what times?",
+            "10pm-6am"
+        ]
+    ]
 ]
