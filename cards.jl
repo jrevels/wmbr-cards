@@ -163,17 +163,54 @@ const CARDS = Vector{Vector{String}}[
             "Maybe, if you followed WMBR policy."
         ],
         [
-            "Are materials that do *not* have a Do Not Play warning always safe to play?"
+            "Are materials that do *not* have a Do Not Play warning always safe to play?",
             "No, the management board doesn't/can't review everything!"
         ],
         [
-            "What should you do if a listener complains?"
+            "What should you do if a listener complains? (5 things)",
             """
             - DO NOT PROVOKE. Be polite/professional.
             - Ask the caller to contact the Program Director w/letter or phone call (or get contact info and tell them PD will contact them).
             - If the caller threatens to contact the FCC, try to get them to speak to the Program Director first.
             - If you don't have an aircheck/broadcast recording, write down specifics
             - Contact Program Diractor/Management Board ASAP.
+            """
+        ]
+    ],
+    [
+        [
+            "What kind of station is WMBR?",
+            "Non-Commercial Educational (NCE)"
+        ],
+        [
+            "What are the 4 no-nos for announcing event info?",
+            """
+            - No addresses
+            - No prices
+            - No phone numbers
+            - No calls to action
+            Note that you may have listeners call you/the station for more info
+            """
+        ],
+        [
+            "If you are ____________, you cannot play/promote ________ on air. (4 tuple answers)",
+            """
+            - a musician who has been/might ever be paid for their music, your music
+            - employed by a studio/label/music organization, the org's music
+            - event promoter/host/organization, your events
+            - business owner/stakeholder, that business
+            """
+        ],
+        [
+            "What is WMBR's political/social policy?",
+            "WMBR does not hold any political/social opinions as a station, and cannot have editorials. If your show's content is political/social/controversial, you must play the disclaimer."
+        ],
+        [
+            "What are the 3 DMCA streaming limitations?",
+            """
+            - No more than 3 songs from one album; no more than 2 consecutively
+            - No more than 4 songs from a set/compilation; no more than 3 consecutively
+            - No more than 4 songs from the same artist (this does not apply to live in-studio performances)
             """
         ]
     ]
