@@ -7,13 +7,14 @@ function main(cards)
     stopped = false
     while true
         println()
-        println("--------------------------------")
+        println("#################### NEW DECK ####################")
         println()
         for (q, a) in rand(cards)
-            println("Q: ", chomp(q))
+            println("--------------------------------------------------\n")
+            println(chomp(q))
             stopped = !isempty(readline())
             stopped && break
-            println("A: ", chomp(a))
+            println(chomp(a))
             stopped = !isempty(readline())
             stopped && break
         end
