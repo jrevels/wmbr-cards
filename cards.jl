@@ -128,12 +128,53 @@ const CARDS = Vector{Vector{String}}[
             """
         ],
         [
-            "What \"bad\" material is allowed on the air *sometimes*?"
+            "What \"bad\" material is technically allowed on the air *sometimes*?",
             "Indecency/Profanity"
         ],
         [
             "Between what times?",
             "10pm-6am"
+        ],
+        [
+            """
+            To help prevent content violations, the __________ will label some material as
+            ______________________.
+            """,
+            "Management Board, Do Not Air/Do Not Play/FCC/Biohazard"
+        ],
+        [
+            "Who is responsible for material aired?",
+            "Individual producers/OTA personnel."
+        ],
+        [
+            "Can profanity be used on air when reading a song title/other printed matter that has profanity in it?",
+            "Nope!"
+        ],
+        [
+            "What are the consequences for violating WMBR's policy?",
+            "suspension of OTA/member priveleges"
+        ],
+        [
+            "What are the consequences for violating FCC guidelines?",
+            "Fines/loss of license for WMBR + fines for OTA individual responsible"
+        ],
+        [
+            "Will WMBR ever defend you in case of FCC fines?",
+            "Maybe, if you followed WMBR policy."
+        ],
+        [
+            "Are materials that do *not* have a Do Not Play warning always safe to play?"
+            "No, the management board doesn't/can't review everything!"
+        ],
+        [
+            "What should you do if a listener complains?"
+            """
+            - DO NOT PROVOKE. Be polite/professional.
+            - Ask the caller to contact the Program Director w/letter or phone call (or get contact info and tell them PD will contact them).
+            - If the caller threatens to contact the FCC, try to get them to speak to the Program Director first.
+            - If you don't have an aircheck/broadcast recording, write down specifics
+            - Contact Program Diractor/Management Board ASAP.
+            """
         ]
     ]
 ]
