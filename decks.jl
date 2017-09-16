@@ -1,6 +1,6 @@
 # This should be JSON instead of an in-code literal but I'm lazy
 
-const CARDS = Vector{Vector{String}}[
+const DECKS = Vector{Vector{String}}[
     [
         [
             "8 responsibilities of OTA engineer?",

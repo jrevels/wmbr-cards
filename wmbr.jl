@@ -1,7 +1,7 @@
 
-include(joinpath(dirname(@__FILE__), "cards.jl"))
+include(joinpath(dirname(@__FILE__), "decks.jl"))
 
-function main(cards)
+function main(decks)
     print("Ready?! Press [ENTER] to continue at each step. If you'd like to stop, input any character(s) before pressing [ENTER].")
     readline()
     stopped = false
@@ -9,17 +9,16 @@ function main(cards)
         println()
         println("#################### NEW DECK ####################")
         println()
-        for (q, a) in rand(cards)
+        for card in rand(decks)
             println("--------------------------------------------------\n")
-            println(chomp(q))
-            stopped = !isempty(readline())
-            stopped && break
-            println(chomp(a))
-            stopped = !isempty(readline())
-            stopped && break
+            for side in card
+                println(chomp(side))
+                stopped = !isempty(readline())
+                stopped && break
+            end
         end
         stopped && break
     end
 end
 
-main(CARDS)
+main(DECKS)
