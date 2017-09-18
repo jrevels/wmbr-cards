@@ -6,19 +6,20 @@ function main!(decks)
     readline()
     stopped = false
     while true
-        println("************************ SHUFFLING DECKS ************************")
+        println("*********************************** SHUFFLING DECKS ***********************************")
         shuffle!(decks)
         for deck in decks
             println()
             println("#################### NEW DECK ####################")
             println()
-            for card in rand(decks)
+            for card in deck
                 println("--------------------------------------------------\n")
                 for side in card
                     println(chomp(side))
                     stopped = !isempty(readline())
                     stopped && break
                 end
+                stopped && break
             end
             stopped && break
         end
